@@ -1,0 +1,39 @@
+.parent {
+  cursor: pointer;
+}
+
+.caret {
+  background-color: #f9f9f9;
+  margin-right: 16px;
+}
+
+.folder {
+  background-color: #f9f9f9;
+  margin-right: 8px;
+}
+
+.parent:hover,
+.caret:hover,
+.folder:hover,
+a:hover {
+  background-color: rgb(220 252 231);
+}
+
+.item-list {
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.item-list:hover {
+  background-color: rgb(220 252 231);
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+img {
+  margin-right: 16px;
+}
